@@ -25,7 +25,7 @@ class OperationsTest {
 
 	@Test
 	void testProducto() {
-		assertEquals(60, Operations.producto(5, 5));
+		assertEquals(25, Operations.producto(5, 5));
 	}
 
 	@Test
@@ -35,7 +35,7 @@ class OperationsTest {
 	
 	@Test
 	void testRaiz() {
-		assertEquals(8, Operations.raiz(4));
+		assertEquals(2, Operations.raiz(4));
 	}
 
 }
