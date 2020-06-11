@@ -25,17 +25,17 @@ class OperationsTest {
 
 	@Test
 	void testProducto() {
-		assertEquals(25, Operations.producto(5, 5));
+		assertEquals(60, Operations.producto(5, 5));
 	}
 
 	@Test
-	void testDivision() {
+	void testCambiarSigno() {
 		assertEquals(-6, Operations.cambiarSigno(6));
 	}
 	
 	@Test
 	void testRaiz() {
-		assertEquals(2, Operations.raiz(4));
+		assertEquals(8, Operations.raiz(4));
 	}
 
 }

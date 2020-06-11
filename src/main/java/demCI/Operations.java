@@ -56,14 +56,25 @@ public class Operations {
 	public static double cambiarSigno(int x) {
 		return -x;
 	}
-	
+
 	/***
 	 * Metodo raiz, calcula la raiz cuadrada de un numero
+	 * 
 	 * @param x
 	 * @return double x
 	 */
 	public static double raiz(int x) {
 		return Math.sqrt(x);
+	}
+
+	/***
+	 * Metodo division
+	 * @param x
+	 * @param y
+	 * @return int x
+	 */
+	public static int division(int x, int y) {
+		return (x / y);
 	}
 
 }
